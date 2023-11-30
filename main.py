@@ -13,6 +13,7 @@ def register():
     if request.method == "POST":
         result = request.form
         print(result)
+
     return render_template('addForm.html')
 
 
